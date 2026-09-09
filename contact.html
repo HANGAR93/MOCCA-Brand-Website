@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>MOCCA — Contact</title>
+   <script>
+    (() => {
+
+      const language =
+        localStorage.getItem("moccaLanguage") || "en";
+
+      document.documentElement.lang =
+        language;
+
+      document.documentElement.dataset.language =
+        language;
+
+    })();
+  </script>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+</head>
+
+
+<body>
+
+  <div class="noise"></div>
+
+
+  <!-- =====================================================
+       HEADER
+  ====================================================== -->
+
+  <header class="site-header">
+
+    <a
+      href="index.html"
+      class="logo"
+    >
+      MOCCA®
+    </a>
+
+
+    <!-- LANGUAGE SWITCH -->
+
+    <button
+            class="language-switch"
+            id="languageSwitch"
+            type="button"
+            aria-label="Change language"
+            aria-pressed="false"
+        >
+            <span class="language-option language-en active">EN</span>
+            <span class="language-divider">/</span>
+            <span class="language-option language-es">ES</span>
+        </button>
+
+
+    <a
+      href="index.html"
+      class="header-contact"
+    >
+      ← BACK
+    </a>
+
+  </header>
+
+
+  <!-- =====================================================
+       CONTACT
+  ====================================================== -->
+
+  <main>
+
+    <section
+      class="cta contact-page"
+      style="
+        min-height:100vh;
+        display:flex;
+        align-items:center;
+      "
+    >
+
+      <div class="cta-grid">
+
+
+        <!-- INDEX -->
+
+        <div class="cta-index">
+
+          06 / CONTACT
+
+        </div>
+
+
+        <!-- MAIN -->
+
+        <div class="cta-main">
+
+
+          <!-- INTRO -->
+
+          <div class="cta-small">
+
+            HAVE A PROJECT?<br>
+            HAVE A BUSINESS?<br>
+            HAVE AN IDEA?
+
+          </div>
+
+
+          <!-- TITLE -->
+
+          <h2>
+
+            LET'S
+            <span>TALK.</span>
+
+          </h2>
+
+
+          <!-- CONTACT LINKS -->
+
+          <div class="contact-links">
+
+
+            <!-- EMAIL -->
+
+            <a
+              href="mailto:hello@mocca.studio"
+              class="contact-link"
+            >
+
+              <span class="contact-label">
+                EMAIL
+              </span>
+
+              <span class="contact-value">
+                hello@mocca.studio
+              </span>
+
+              <span class="contact-arrow">
+                ↗
+              </span>
+
+            </a>
+
+
+            <!-- WHATSAPP -->
+
+            <a
+              href="https://wa.me/XXXXXXXXXXX"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-link"
+            >
+
+              <span class="contact-label">
+                WHATSAPP
+              </span>
+
+              <span class="contact-value">
+                +XX XXX XXX XXX
+              </span>
+
+              <span class="contact-arrow">
+                ↗
+              </span>
+
+            </a>
+
+
+            <!-- INSTAGRAM -->
+
+            <a
+              href="https://instagram.com/YOURUSERNAME"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-link"
+            >
+
+              <span class="contact-label">
+                INSTAGRAM
+              </span>
+
+              <span class="contact-value">
+                @YOURUSERNAME
+              </span>
+
+              <span class="contact-arrow">
+                ↗
+              </span>
+
+            </a>
+
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =====================================================
+       LANGUAGE
+  ====================================================== -->
+
+  <script src="script.js"></script>
+<div class="mocca-page-transition"></div>
+</body>
+
+</html>
